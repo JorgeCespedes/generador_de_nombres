@@ -1,11 +1,20 @@
-from nombres import *
-from apellidos import *
 
+from opciones import *
 
 def run():
-  print('Generador de nombres')
+  print('')
+  print('    ----------------------------------')
+  print('    Bienvenido al generador de nombres')
+  print('    ----------------------------------')
+  print('')
+  
+  print('Favor escoger la opción que más te convenga.')
+  seleccion_nombre()
 
 
-if __name__ == '__ main__':
-  print('Generador de nombres aleatorio')
+def seleccion_nombre():
+  opciones()
+
+
+if __name__ == '__main__':
   run()
